@@ -1,26 +1,26 @@
 {
-	"name": "markdown-media-card",
-	"version": "1.2.0",
-	"description": "This is a plugin for Obsidian that allows you to insert media information cards in Markdown, such as books, music, movies, etc.",
+	"name": "obsidian-vconsole",
+	"version": "1.0.0",
+	"description": "Integrate vConsole for developers to facilitate the debugging of mobile plugins.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
-		"version": "node version-bump.mjs && git add manifest.json versions.json",
-		"typesafe-i18n": "typesafe-i18n"
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
 	"keywords": [
 		"obsidian",
 		"plugin",
-		"markdown"
+		"mobile",
+		"console"
 	],
 	"author": "Zhou Hua",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/zhouhua/obsidian-markdown-media-card"
+		"url": "https://github.com/zhouhua/obsidian-vconsole"
 	},
 	"bugs": {
-		"url": "https://github.com/zhouhua/obsidian-markdown-media-card/issues"
+		"url": "https://github.com/zhouhua/obsidian-vconsole/issues"
 	},
 	"license": "MIT",
 	"devDependencies": {
@@ -34,7 +34,6 @@
 		"typescript": "5.4.2"
 	},
 	"dependencies": {
-		"@zhouhua-dev/remark-media-card": "^1.1.6",
-		"typesafe-i18n": "^5.26.2"
+		"vconsole": "^3.15.1"
 	}
 }
