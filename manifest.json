@@ -2,7 +2,7 @@
 	"id": "vconsole",
 	"name": "vConsole",
 	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
+	"minAppVersion": "1.5.3",
 	"description": "Integrate vConsole for developers to facilitate the debugging of mobile plugins.",
 	"author": "Zhou Hua",
 	"authorUrl": "https://zhouhua.site",
