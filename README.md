@@ -28,3 +28,11 @@ Search `vconsole` in community plugins.
 - Execute JS command manually
 
 Please refer to the [vConsole project](https://github.com/Tencent/vConsole) for more information.
+
+## My Other Obsidian Plugins
+
+- [Export Image](https://github.com/zhouhua/obsidian-export-image)
+- [Markdown Media Card](https://github.com/zhouhua/obsidian-markdown-media-card)
+- [POWER MODE](https://github.com/zhouhua/obsidian-power-mode)
+- [Another Sticky Headings](https://github.com/zhouhua/obsidian-sticky-headings)
+- [PopKit](https://github.com/zhouhua/obsidian-popkit)
