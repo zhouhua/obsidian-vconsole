@@ -8,8 +8,6 @@ export default class VConsolePlugin extends Plugin {
 	}
 
 	onunload() {
-		if (this.vConsole !== undefined) {
-			this.vConsole.destroy();
-		}
+		this.vConsole?.destroy();
 	}
 }
