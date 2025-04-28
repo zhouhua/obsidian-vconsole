@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-vconsole",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Integrate vConsole for developers to facilitate the debugging of mobile plugins.",
 	"main": "main.js",
 	"scripts": {
